@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3 | Lists</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=REM&display=swap" rel="stylesheet">
+    <style>
+      main {
+        display: grid;
+        font-family: "Quicksand", sans-serif;
+        background: url(./img/pattern-background-desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        place-content: center;
+        background-color: #ecf2ff;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+      }
+      section {
+        background-color: #3829e01c;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+        <section>
+      <figure>
+        <figcaption>Task 3 | List</figcaption>
+      </figure>
+      <ol type="I">
+        <li>List Item 1</li>
+        <ol type="a">
+          <li>Nested item 1.1</li>
+          <li>Nested item 1.2</li>
+        </ol>
+        <li>List item 2</li>
+        <ol type="1">
+          <li>Nested item 2.1</li>
+          <li>Nested item 2.2</li>
+          <ul style="list-style-type: circle">
+            <li>Nested item 2.2.1</li>
+            <li>Nested item 2.2.2</li>
+            <ul style="list-style: square">
+              <li>Nested item 2.2.2.1</li>
+              <li>Nested item 2.2.2.0</li>
+            </ul>
+            <li>Nested item 2.2.3</li>
+          </ul>
+          <li>Nested item 2.3</li>
+        </ol>
+        <li>List item 3</li>
+        <ul style="list-style: outside">
+          <li>Nested item 3.1</li>
+          <li>Nested item 3.2</li>
+          <li>Nested item 3.3</li>
+        </ul>
+      </ol>
+    </section>
+    </main>
+  </body>
+</html>
